@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calcul de poids idéal</title>
+</head>
+<body>
+	<h1>Calcul de poids idéal</h1>
+	<form action="poids.jsp" method="post">
+		<label for="taille">Taille (en mètres) :</label>
+		<input type="number" step="0.01" id="taille" name="taille"><br><br>
+
+		<label for="sexe">Sexe :</label>
+		<input type="radio" id="homme" name="sexe" value="homme">
+		<label for="homme">Homme</label>
+		<input type="radio" id="femme" name="sexe" value="femme">
+		<label for="femme">Femme</label><br><br>
+
+		<input type="submit" value="Calculer">
+	</form>
+</body>
+</html>

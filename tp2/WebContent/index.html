@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculatrice</title>
+</head>
+<body>
+	<h1>Calculatrice</h1>
+	<form action="FormulaireServlet" method="post">
+		<label for="operande1">Opérande 1 :</label>
+		<input type="number" id="operande1" name="operande1"><br><br>
+
+		<label for="operande2">Opérande 2 :</label>
+		<input type="number" id="operande2" name="operande2"><br><br>
+
+		<label for="operation">Opération :</label>
+		<select id="operation" name="operation">
+			<option value="">-- Sélectionnez une opération --</option>
+			<option value="addition">Addition (+)</option>
+			<option value="soustraction">Soustraction (-)</option>
+			<option value="multiplication">Multiplication (*)</option>
+			<option value="division">Division (/)</option>
+		</select><br><br>
+
+		<input type="submit" value="Calculer">
+	</form>
+</body>
+</html>
